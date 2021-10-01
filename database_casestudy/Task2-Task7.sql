@@ -4,16 +4,16 @@ use database_casestudy;
  
 select *
 from nhan_vien
-where substring_index(ho_ten, '_', -1) like 'h%' 
-		or substring_index(ho_ten, '_', -1) like 't%'
-        or substring_index(ho_ten, '_', -1) like 'k%'  
+where substring_index(ho_ten, ' ', -1) like 'h%' 
+		or substring_index(ho_ten, ' ', -1) like 't%'
+        or substring_index(ho_ten, ' ', -1) like 'k%'  
         and length(ho_ten) <16;
         
 /*Task3.	Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”. */
 
 select *
 from khach_hang
-where (dia_chi = 'da nang' or dia_chi = 'quang_tri') and (year(curdate()) - year(ngay_sinh) between 18 and 50);
+where (dia_chi = 'da nang' or dia_chi = 'quang tri') and (year(curdate()) - year(ngay_sinh) between 18 and 50);
 
 /* Task 4.	Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần.
  Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”. */
