@@ -71,7 +71,23 @@ public class ProductServlet extends HttpServlet {
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        String action = request.getParameter("action");
+        if (action == null) {
+            action = "";
+        }
+        switch (action) {
+            case "create":
+                showCreate(request, response);
+                break;
+            case "edit":
+                showEdit(request, response);
+                break;
+            case "search":
+                showDelete(request, response);
+                break;
+            default:
+                showList(request, response);
+        }
     }
     private void showDelete(HttpServletRequest request, HttpServletResponse response) throws IOException {
         int id = Integer.parseInt(request.getParameter("id"));

@@ -79,5 +79,8 @@
         document.getElementById("nameProductDelete").value = name;
     }
 </script>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script src="popper/popper.min.js"></script>
+<script src="bootstrap4/js/bootstrap.js"></script>
 </body>
 </html>
