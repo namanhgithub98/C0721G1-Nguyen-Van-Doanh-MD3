@@ -23,11 +23,12 @@
     </div>
 
     <div class="col-3 mt-2 mb-2">
-    <img src="assert/image/googleMap.jpg" style="width: 200px; height: 150px" >
+<%--    <img src="assert/image/googleMap.jpg" style="width: 200px; height: 150px" >--%>
+    <img src="assert/datatables/image/logoFurama.png" style="width: 200px; height: 150px" >
     </div>
 
     <div class="col-4 mt-2 mb-2">
-    <%--        <img src="assert/image/fb.jpg" style="width: 200px; height: 150px" >--%>
+<%--            <img src="assert/datatables/image/logoFurama.png" style="width: 200px; height: 150px" >--%>
     <h5>CHIA SẺ MẠNG XÃ HỘI</h5>
     <span class="fa fa-facebook"></span><span>   Facebook</span><br>
     <span class="fa fa-youtube"></span><span>   Youtube</span><br>

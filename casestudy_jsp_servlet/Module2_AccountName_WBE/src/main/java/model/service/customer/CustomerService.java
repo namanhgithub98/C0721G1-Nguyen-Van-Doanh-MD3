@@ -16,4 +16,8 @@ public interface CustomerService {
     public void updateCustomer(Customer customer) throws SQLException;
 
     public void deleteCustomer(int customerId) throws SQLException;
+
+    static void remove(int id) {
+
+    }
 }

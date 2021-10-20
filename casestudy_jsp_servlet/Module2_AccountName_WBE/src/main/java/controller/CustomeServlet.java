@@ -133,7 +133,7 @@ public class CustomeServlet extends HttpServlet {
                 break;
         }
     }
-    private void deleteCustomer(HttpServletRequest request, HttpServletResponse response) {
+    private void deleteCustomer(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int customerId = Integer.parseInt(request.getParameter("customerId"));
         try {
             service.deleteCustomer(customerId);

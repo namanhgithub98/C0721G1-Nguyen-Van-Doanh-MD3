@@ -22,28 +22,28 @@
         <div class="col-10">
             <div class="row">
                 <div class="card col-6" style="width: 18rem;">
-                    <img src="assert/image/hoBoi.png" class="card-img-top" alt="...">
+                    <img src="assert/datatables/image/hoBoi.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Hồ bơi/Fitness</h5>
                     </div>
                 </div>
 
                 <div class="card col-6" style="width: 18rem;">
-                    <img src="assert/image/spa.png" class="card-img-top" alt="...">
+                    <img src="assert/datatables/image/spa.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Spa</h5>
                     </div>
                 </div>
 
                 <div class="card col-6" style="width: 18rem;">
-                    <img src="assert/image/quayBar.png" class="card-img-top" alt="...">
+                    <img src="assert/datatables/image/quayBar.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Quầy bar/Lounge</h5>
                     </div>
                 </div>
 
                 <div class="card col-6" style="width: 18rem;">
-                    <img src="assert/image/casino.png" class="card-img-top" alt="...">
+                    <img src="assert/datatables/image/casino.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Casino/Sòng bạc</h5>
                     </div>

@@ -73,8 +73,8 @@
                                 </td>
                                 <td>
                                     <a class="btn btn-primary" href="/service?action=edit&serviceId=${employee.getServiceId()}" role="button">Edit</a>
-                                    <a onclick="onDelete('${employee.getServiceId()}','${employee.getServiceCode()}')" class="btn btn-danger"
-                                       role="button" data-toggle="modal" data-target="#modelId">Delete</a>
+                                    <button onclick="onDelete('${employee.getServiceId()}','${employee.getServiceCode()}')" class="btn btn-danger"
+                                       role="button" data-toggle="modal" data-target="#modelId">Delete</button>
                                 </td>
                             </tr>
                         </c:forEach>
